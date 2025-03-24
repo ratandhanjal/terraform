@@ -1,0 +1,10 @@
+rg={
+    rg1={
+        name="ratanrg"
+        location="centalindia"
+    }
+    rg2={
+        name="dhanjalrg"
+        location="centralindia"
+    }
+}
