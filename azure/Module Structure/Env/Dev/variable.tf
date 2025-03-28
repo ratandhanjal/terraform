@@ -1,7 +1,10 @@
 variable "rg" {} #Parent module variable
 variable "vnet" {} #Parent module variable
 variable "subnet" {} #Parent module variable
-variable "nic" {}
+variable "nic" {}#Parent module variable
+variable "pip" {}#Parent module variable
+variable "vm_linux" {}#Parent module variable
+
 
 # variable "nic" {
 #   type = map(object({
