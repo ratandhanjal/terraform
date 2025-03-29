@@ -27,3 +27,7 @@ resource "azurerm_linux_virtual_machine" "VM_Linux" {
     version   = "latest"
   }
 }
+
+output "vm_public_ips" {
+  value = { for k, v in data.azurerm_public_ip.vm_public_ip : k => v.ip_address }
+}

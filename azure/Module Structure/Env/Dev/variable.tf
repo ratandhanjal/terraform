@@ -4,7 +4,9 @@ variable "subnet" {} #Parent module variable
 variable "nic" {}#Parent module variable
 variable "pip" {}#Parent module variable
 variable "vm_linux" {}#Parent module variable
-
+variable "nsg"{}#Parent module variable
+variable "nsg_rules" {}
+variable "nsg_to_subnet" {}
 
 # variable "nic" {
 #   type = map(object({
