@@ -56,7 +56,7 @@ vm_linux= {
         size="Standard_F2"
         admin_username="adminaratn"
         admin_password="admin@123456"
-        disable_password_authentication="false" #true for admin_ssh_key
+        disable_password_authentication= false #true for admin_ssh_key
         nic_name="ratan_nic"
     }
 }
