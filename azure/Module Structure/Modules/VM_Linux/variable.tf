@@ -1,2 +1,0 @@
-
-variable "vm_linux" {}
