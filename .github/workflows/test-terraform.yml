@@ -24,13 +24,13 @@ jobs:
         tenant-id: ${{ vars.TENANTID }}
         subscription-id: ${{ vars.SUBSCRIPTIONID }}
     
-    - name: Enable PowerShell scripts (Windows only)
-      run: Set-ExecutionPolicy RemoteSigned -Scope Process -Force
-      shell: pwsh
+    # - name: Enable PowerShell scripts (Windows only)
+    #   run: Set-ExecutionPolicy RemoteSigned -Scope Process -Force
+    #   shell: pwsh
     
     - name: List Resource Groups
       run: az group list --output table
-      shell: pwsh
+      # shell: pwsh
       
     
     
